@@ -36,7 +36,7 @@ class Board
 
   def show_game
     get_grid
-    top
+    # top
     puts "" 
     n = 65.chr
     puts "        1         2         3"
@@ -53,13 +53,6 @@ class Board
     system "clear"
   end
 
-  def top
-    puts "|///////////////////////////////////////////////////////////////|"
-    puts "|                        Bienvenue sur                          |"
-    puts "|                          'MORPION'                            |"
-    puts "|                            1 VS 1                             |"
-    puts "|///////////////////////////////////////////////////////////////|"
-  end 
 end # Board
 
 

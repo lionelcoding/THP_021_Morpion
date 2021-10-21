@@ -10,11 +10,7 @@ class Player
     def initialize(name, symbol)
       @player_name = name
       @player_symbol = symbol
-      @@all_players << self
     end #initialize
-  
-    def self.get_all_players
-      @@all_players
-    end # get_all_players
+
   
   end # Player

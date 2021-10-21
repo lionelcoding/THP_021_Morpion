@@ -13,3 +13,5 @@ class Application
     initGame.go
   end
 end # Application
+
+Application.new
